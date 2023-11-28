@@ -49,7 +49,3 @@ const getmessage = async () => {
 }
 
 submitButton.addEventListener('click', getmessage)
-bottonElement.addEventListener('click', () => {
-    inputElement.value = '';
-    inputElement.focus();
-})
